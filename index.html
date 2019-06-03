@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -7,15 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
     <title>Erik's Bootstrap Portfolio</title>
     <Style>
         body {
             background-image: url(assets/images/interlaced.png);
+            font-family: 'Raleway', sans-serif;
         }
+
     </Style>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark py-0">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -41,6 +45,51 @@
         </div>
     </nav>
 
+    <div class="container bg-info text-dark my-5 p-5 flex-shrink-0">
+        <div class="row">
+            <div class="col-md">
+                <h1>About Me</h1>
+                <hr class="hr bg-light" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <img src="assets/images/erik.jpg" alt="picture of Erik" class="rounded float-left mr-3 mb-3"
+                    width="180px">
+                <p class="text-light">Hello! I'm Erik. You probably know me as the guy who sits in the
+                    middle row at
+                    class who is always wearing a hat. What you may not know is that I am married
+                    (15 years), have 1 son, 2 dogs (Stewie and Bowser) and 1
+                    stupid cat (Kitty). I'm born and raised in WA and have a great family who all live pretty close
+                    which is nice. My favorite holiday is Christmas and my least favorite (major) holiday is
+                    Thanksgiving.
+                </p>
+                <p class="text-light">
+                    During my free time (when not in this bootcamp), I enjoy playing video games
+                    (Playstation 4, Xbox One, & Nintendo Switch), watching football (Go Cougs/Go Hawks), reading, going
+                    to movies, riding mtn bike/motorcycle, and spending time with my wife, son and dogs. I also really
+                    enjoy listening to music. Some of my favorite artists are Billy Joel, Chvrches, New Found Glory,
+                    Taylor Swift (all her albums except her most recent album, that one was trash), Styx, Paramore and
+                    Panic! At The Disco. I also really love Legos! I have a large collection made up mostly of the
+                    larger sets that I have accumulated over the last
+                    15 years or so. I had a lot of Legos when I was a kid and I was stupid and sold most of them at a
+                    garage sale many years ago. That was one of the worst decisions that I've ever made.
+                </p>
+                <p class="text-light">
+                    Oh, and I work full time. I don't enjoy it. Not much else to say about that.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark text-light">
+        <div class="container">
+            <p class="text-center">Copyright &#169;</p>
+        </div>
+    </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -50,6 +99,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+
+
 </body>
+
 
 </html>
